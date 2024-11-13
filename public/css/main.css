@@ -1,0 +1,395 @@
+/*******  utils  *******/
+
+:root {
+    --HD-color:#13183F;
+    --txt-color:#83869A;
+}
+
+/****  fonts  ****/
+
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+
+h1 {
+    color: var(--HD-color);
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 26px;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 800;
+    line-height: 32px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: 800;
+
+}
+
+
+p {
+    color: var(--txt-color);
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/******  components  ********/
+
+a {
+    text-decoration: none;
+    color: #F02AA6;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.nav-btn {
+    width: 140px;
+    height: 48px;
+    border-radius: 28px;
+    border: 0;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: var(--HD-color);
+    line-height: 28px;
+    cursor: pointer;
+}
+
+.nav-btn:hover{
+    background-color: #666CA3;
+}
+
+.btn-2:hover{
+    opacity: 0.5;
+}
+
+.btn-2 {
+    width: 167px;
+    height: 56px;
+    border: 0;
+    border-radius: 31.5px;
+    background: linear-gradient(#F02AA6 ,#FF6F48);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 25px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+/*******  body  *******/
+
+.overflow-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+}
+
+
+/*******  header  ********/
+
+.nav-bar {
+    margin: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-header {
+    width: 111px;
+    height: 27px;
+}
+
+/*********  hero-section  *******/
+
+.hero-container {
+    margin: 38px 16px 0px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-content {
+    width: 100%;
+}
+
+.hero-content p {
+    font-size: 1rem;
+    width: 100%;
+}
+
+
+.hero-image-mobile{display: block;}
+.hero-image-tablet{display: none;}
+.hero-image-desktop{display: none;}
+
+
+/*******  courses-section  ********/
+
+.courses-container {
+    background: linear-gradient(180deg, #fff 0%, #F0F1FF 100%);
+}
+
+
+.card-1 {
+    padding: 24px 28px 32px 29px;
+    background: linear-gradient(#F02AA6 ,#FF6F48);
+    width: 77%;
+    border-radius: 10px;
+    
+}
+
+.card-title {
+    width: 70%;
+}
+
+
+
+.course-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.course-cards .card {
+    flex-wrap: wrap;
+    display: flex;
+    padding: 40px 28px 32px 29px;
+    width: 70%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+   
+}
+
+.card-body {
+    width: 100%;
+}
+
+
+.card-body p {
+    font-size: 1rem;
+    margin-bottom: 24px;
+}
+
+.icon-animation {
+    position: absolute;
+    bottom: 59%;
+}
+
+.icon-design {
+    position: absolute;
+    bottom: 1176px;
+}
+
+.icon-photography {
+    position: absolute;
+    bottom: 861px;
+}
+
+.icon-crypto {
+    position: absolute;
+    bottom: 550px;
+}
+
+.icon-business {
+    position: absolute;
+    bottom: 238px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*********  media-queries  *******/
+
+@media screen and (min-width: 768px) {
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    .nav-bar {
+        margin: 24px 40px 0px 39px;
+    }
+
+    .hero-container {
+        display: flex;
+        align-items: start;
+        margin: 105px 40px 0px 39px;
+        flex-direction: row;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-content p {
+        width: 120%;
+    }
+
+
+    .hero-image-mobile {
+        display: none;
+    }
+   
+    .hero-image-tablet {
+        display: block;
+        position: relative;
+        z-index: -1;
+        margin-right: -167px;
+        margin-top: -137px;
+    }
+    
+    /********  courses-section  ******/
+
+    .courses-container {
+        padding: 24px 40px 0px 39px;
+    }
+
+
+    .card-1 {
+        padding: 56px 21px 139px 32px;
+        width: 41%;
+        margin-bottom: 56px;
+    }
+
+    .course-cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .course-cards .card {
+        flex-wrap: wrap;
+        display: flex;
+        width: 40%;
+        margin-bottom:56px ;
+    }
+
+    .card-body {
+        width: 100%;
+    }
+
+    .icon-animation {
+        position: absolute;
+        bottom: 1042px;
+    }
+
+    .icon-design {
+        position: absolute;
+        bottom: 668px;
+    }
+
+    .icon-photography {
+        position: absolute;
+        bottom: 671px;
+    }
+
+    .icon-crypto {
+        position: absolute;
+        bottom: 323px;
+    }
+
+    .icon-business {
+        position: absolute;
+        bottom: 323px;
+    }
+
+    
+}
+
+
+
+@media screen and (min-width:1400px) {
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    p {
+        font-size: 1.125rem;
+    }
+
+    /*******  header  ******/
+    .nav-bar {
+        margin: 24px 165px 0px 165px;
+    }
+
+    /*******  hero-section  ******/
+    .hero-container {
+        margin: 185px 165px 0px 165px;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-content p {
+        width: 65%;
+    }
+
+    .hero-image-tablet {
+        display: none;
+    }
+    
+    .hero-image-desktop {
+        display: block;
+        position: relative;
+        z-index: -1;
+        margin-right: -258px;
+        margin-top: -208px;
+    }
+
+    .hero-image-mobile {
+        display: none;
+    }
+
+    /********  course-section  *******/
+
+    .courses-container {
+        padding:24px 165px 0px 165px ;
+    }
+
+    .course-cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card-1 {
+        width: 27%;
+    }
+
+    .course-cards .card {
+        display: flex;
+        width: 26%;
+    }
+}
