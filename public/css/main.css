@@ -234,10 +234,6 @@ body {
 
 
 
-
-
-
-
 /*********  media-queries  *******/
 
 @media screen and (min-width: 768px) {
@@ -323,6 +319,16 @@ body {
     .icon-business {
         margin-top: -30px;
     }
+
+    /*******  footer  ********/
+
+    .footer-nav {
+        padding: 36px 39px 36px 40px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
 }
 
 
@@ -389,5 +395,29 @@ body {
     .course-cards .card {
         display: flex;
         width: 26%;
+    }
+
+    /*******  footer  ********/
+
+    .footer-nav {
+        padding: 32px 165px 32px 165px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-btn {
+        width: 167px;
+        height: 56px;
+        border-radius: 28px;
+        border: 0;
+        background:linear-gradient(#4851FF,#F02AA6);
+        color: #fff;
+        font-size: 1.125rem;
+        font-weight: 700;
+        line-height: 28px;
+    }
+
+    .footer-btn:hover {
+        background-color: linear-gradient(0deg, #ffffff80 0%, #ffffff80 100%), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
     }
 }
