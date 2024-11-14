@@ -169,7 +169,7 @@ body {
     flex-wrap: wrap;
     display: flex;
     padding: 40px 28px 32px 29px;
-    width: 70%;
+    width: 67%;
     background: #fff;
     border-radius: 10px;
     box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
@@ -286,7 +286,7 @@ body {
 
     .card-1 {
         padding: 56px 21px 139px 32px;
-        width: 40%;
+        width: 38%;
         margin-bottom: 56px;
     }
 
@@ -294,12 +294,13 @@ body {
         display: flex;
         flex-wrap: wrap;
         gap: 20px;
+        flex-direction: row;
     }
 
     .course-cards .card {
         flex-wrap: wrap;
         display: flex;
-        width: 40%;
+        width: 38%;
         margin-bottom:56px ;
     }
 
@@ -329,7 +330,7 @@ body {
 
 
 
-@media screen and (min-width:1457px) {
+@media screen and (min-width:1024px) {
 
     h1 {
         font-size: 3.5rem;
@@ -385,12 +386,13 @@ body {
     }
 
     .card-1 {
-        width: 27%;
+        width: 23%;
     }
 
     .course-cards .card {
         display: flex;
-        width: 26%;
+        flex-direction: row;
+        width: 23%;
     }
 
     /*******  footer  ********/
@@ -414,6 +416,6 @@ body {
     }
 
     .footer-btn:hover {
-        background-color: linear-gradient(0deg, #ffffff80 0%, #ffffff80 100%), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+        background: linear-gradient(0deg, #ffffff80 0%, #ffffff80 100%), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
     }
 }
