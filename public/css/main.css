@@ -153,7 +153,7 @@ body {
 }
 
 .card-title {
-    width: 70%;
+    width: 77%;
 }
 
 
@@ -186,29 +186,12 @@ body {
     margin-bottom: 24px;
 }
 
-.icon-animation {
-    position: absolute;
-    bottom: 59%;
-}
-
-.icon-design {
-    position: absolute;
-    bottom: 1176px;
-}
-
-.icon-photography {
-    position: absolute;
-    bottom: 861px;
-}
-
-.icon-crypto {
-    position: absolute;
-    bottom: 550px;
-}
-
+.icon-animation,
+.icon-design,
+.icon-photography,
+.icon-crypto,
 .icon-business {
-    position: absolute;
-    bottom: 238px;
+    margin-top: -30px;
 }
 
 
@@ -333,32 +316,13 @@ body {
         width: 100%;
     }
 
-    .icon-animation {
-        position: absolute;
-        bottom: 1042px;
-    }
-
-    .icon-design {
-        position: absolute;
-        bottom: 668px;
-    }
-
-    .icon-photography {
-        position: absolute;
-        bottom: 671px;
-    }
-
-    .icon-crypto {
-        position: absolute;
-        bottom: 323px;
-    }
-
+    .icon-animation,
+    .icon-design,
+    .icon-photography,
+    .icon-crypto,
     .icon-business {
-        position: absolute;
-        bottom: 323px;
+        margin-top: -30px;
     }
-
-    
 }
 
 
