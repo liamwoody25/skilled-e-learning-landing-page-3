@@ -323,6 +323,7 @@ body {
     /*******  footer  ********/
 
     .footer-nav {
+        height: 120px;
         padding: 36px 39px 36px 40px;
         display: flex;
         justify-content: space-between;
