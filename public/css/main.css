@@ -146,7 +146,7 @@ body {
 
 .card-1 {
     padding: 24px 28px 32px 29px;
-    background: linear-gradient(#F02AA6 ,#FF6F48);
+    background: linear-gradient( #FF6F48,#F02AA6);
     width: 77%;
     border-radius: 10px;
     
@@ -242,12 +242,11 @@ body {
         font-size: 2.5rem;
     }
 
-    h2 {
-        font-size: 1.5rem;
-    }
+
 
     h3 {
         font-size: 1.25rem;
+        
     }
 
     .nav-bar {
