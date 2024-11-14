@@ -198,7 +198,7 @@ body {
 /********  footer  *********/
 
 .footer-nav {
-    padding:16px 36px 16px 36px ;
+    padding:36px 16px 36px 16px ;
     display: flex;
     align-items: center;
     justify-content: space-between;
